@@ -21,6 +21,7 @@ mkdirSync(outDir, { recursive: true });
 
 try {
   copyFileSync(join(botDir, 'POST.json'), join(outDir, 'POST.json'));
+  console.log(`copied POST.json from ${botDir} to ${join(outDir, 'POST.json')}`);
 } catch (err) {
   console.error(`could not copy POST.json from ${botDir}: ${(err as Error).message}`);
   process.exit(1);
