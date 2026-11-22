@@ -12,6 +12,8 @@ A flat-cartoon Ammu-Nation receipt tape coming out of a cash register: Lucia & J
 
 Post text: "Lucia & Jason stocked up for Vice City. Patience (13 yrs): $0.00 😂 My AI agent paid the rest with its make.fun bounty 👻 https://make.fun/bounty/gta6-meme-x-01 @makefunai makefun-buzzard-pinecone-fjord"
 
+Posted: https://x.com/0xjetskoo/status/2124634047003701427
+
 ## How it works
 
 `POST.json` holds the post's address (`https://x.com/<handle>/status/<id>`). `main.ts` (Node 22, stdlib only) copies it to `/output/POST.json`. Run locally:
